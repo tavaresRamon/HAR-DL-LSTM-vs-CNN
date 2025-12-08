@@ -1,0 +1,47 @@
+/* Ajuste global de fontes */
+.reveal {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  color: #333;
+}
+
+/* TÍTULOS: Margens mínimas para dar espaço aos gráficos */
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #003f5c; 
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+}
+
+/* IMAGENS: Otimização para ocupar espaço máximo */
+/* O r-stretch tenta ocupar o espaço vertical, o width 100% o horizontal */
+.reveal .r-stretch img, .reveal .r-stack img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 90vh !important; /* Permite que a imagem cresça mais verticalmente */
+  object-fit: contain !important;
+}
+
+/* Centralizar títulos e legendas de figuras */
+center {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Tabelas */
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+.reveal th {
+  background-color: #f3f3f3;
+  border-bottom: 2px solid #333;
+}
+
+/* Callouts */
+.callout-important {
+  background-color: #f0f8ff;
+  border-left: 5px solid #003f5c;
+  padding: 15px;
+}
